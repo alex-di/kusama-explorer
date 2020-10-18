@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "yarn && next build && next export -o app",
+    "build": "yarn && next build",
+    "export": "yarn build && next export -o static",
     "start": "http-server ./out"
   },
   "dependencies": {
