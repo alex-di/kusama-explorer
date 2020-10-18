@@ -1,0 +1,17 @@
+{
+  "name": "hw-dot-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "http-server ./out"
+  },
+  "dependencies": {
+    "@polkadot/api": "^2.3.1",
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
